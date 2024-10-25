@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>입력 관련 태그 - input편</title>
+  </head>
+  <body>
+    <h1>입력 관련 태그 input편</h1>
+    <pre>
+        input type 종류
+        글자 = text
+        비밀번호 = password
+        이메일 = email
+        전화번호= tel
+        숫자 및 범위 = number
+        범위(슬라이더) = range
+        파일 = file
+        시간/주/월 = time/week/month
+        체크박스 = checkbox
+        라디오 = radio
+        제출/리셋/숨김 = submit / reset / hidden
+    </pre>
+
+    <h3>텍스트 입력 비밀번호 입력 활용하기</h3>
+    <label>ID 입력 :</label>
+    <input type="text" placeholder="아이디를 입력하세요" />
+    <br />
+    <label>PW 입력</label>
+    <input type="password" placeholder="비밀번호를 입력하세요" />
+    <!--
+    타입을 password라고 지정을 해놓으면 사용자가 작성하는 비밀번호가 ●●●●으로 표기되어 비밀번호 유출을 방지한당
+    -->
+    <br />
+    <label> e-mail 입력 : </label>
+    <input type="email" placeholder="이메일을 입력하세요" />
+    <!--
+    타입을 e-mail로 지정해놓으면 사용자가 이메일을 작성할 때 아이디만 작성하고 이메일 도메인 주소를 작성하지 않으면
+    추후에 "잘못된 이메일 형식입니다"하며 제출을 방지하는 설정이 들어있당
+    -->
+  </body>
+</html>
